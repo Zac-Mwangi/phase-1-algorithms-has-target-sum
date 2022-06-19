@@ -4,7 +4,6 @@ function hasTargetSum(array, target) {
   for (var i = 0; i < array.length; i++) {
     for (var j = 0; j < array.length; j++) {
       if (array[i] + array[j] === target) {
-       // res.push([array[i], array[j]]);
         return true;
       }
        else if (array[j] + array[j] === target || array[i]+array[i]==target) {
